@@ -5,7 +5,6 @@ description = "Subdomain takeover finder"
 authors = ["godpleaseno <zfrty@protonmail.com>"]
 license = "MIT"
 readme = 'README.md'
-license = "MIT"
 repository = "https://github.com/scanfactory/sdto"
 homepage = "https://github.com/scanfactory/sdto"
 keywords = [
