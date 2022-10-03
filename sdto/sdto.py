@@ -208,9 +208,19 @@ async def check_target(
     fingerprints: List[RegexFingerprint],
 ) -> Optional[RegexFingerprint]:
     async with cs.get(url_of(target, ssl), proxy=proxy) as resp:
-        text = await resp.text()
-        code = resp.status
+        try:
+            text = await resp.text()
+        except UnicodeDecodeError:
+            return None
+    return find_match(fingerprints, text, resp.status)
+
+
+def find_match(
+    fingerprints: List[RegexFingerprint], text: str, status_code: int
+) -> Optional[RegexFingerprint]:
     for f in fingerprints:
-        if (code in range(201, 599) or f.process_200) and f.pattern.findall(text):
+        if (status_code in range(201, 599) or f.process_200) and f.pattern.findall(
+            text
+        ):
             return f
     return None
