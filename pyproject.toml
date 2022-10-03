@@ -1,9 +1,27 @@
 [tool.poetry]
 name = "sdto"
-version = "0.1.0"
+version = "0.1.1"
 description = "Subdomain takeover finder"
 authors = ["godpleaseno <zfrty@protonmail.com>"]
 license = "MIT"
+readme = 'README.md'
+license = "MIT"
+repository = "https://github.com/scanfactory/sdto"
+homepage = "https://github.com/scanfactory/sdto"
+keywords = [
+    "subdomain-takeover",
+    "scanner",
+    "cybersecurity",
+    "security",
+    "takeover",
+]
+classifiers = [
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Security",
+    "License :: OSI Approved :: MIT License",
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
