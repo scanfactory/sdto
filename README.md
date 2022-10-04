@@ -119,7 +119,7 @@ docker run -it --rm sdto -t www.domain.com -v
 
 ### Using custom fingerprints
 
-You can specify custom fingerprints file via `-F path/to/file.json` parameter.
+You can specify custom fingerprints file via `-f path/to/file.json` parameter.
 The expected json file format:
 ```json
 {
