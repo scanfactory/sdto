@@ -119,7 +119,7 @@ docker run -it --rm sdto -t www.domain.com -v
 
 ### Using custom fingerprints
 
-You can specify custom fingerprints file via '-F path/to/file.json' parameter.
+You can specify custom fingerprints file via `-F path/to/file.json` parameter.
 The expected json file format:
 ```json
 {
@@ -128,6 +128,7 @@ The expected json file format:
   "Fastly": {"pattern": "Fastly pattern\\: unknown domain\\:", "process_200": true}
 }
 ```
+Note that `pattern` value is expected to be a python regexp.
 
 ## Usage as a python library
 
