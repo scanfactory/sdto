@@ -4,7 +4,7 @@ import json
 import logging
 import re
 from pathlib import Path
-from typing import List, Optional, Tuple, Pattern
+from typing import List, Optional, Tuple, Pattern, Dict, Any
 from urllib.parse import urlparse
 
 import aiohttp
@@ -189,14 +189,7 @@ def fingerprints_from(path: Optional[str]) -> List[RegexFingerprint]:
     else:
         fingerprints = default_fingerprints
     try:
-        return [
-            RegexFingerprint(
-                name,
-                re.compile(data["pattern"], re.IGNORECASE),
-                data.get("process_200", False),
-            )
-            for name, data in fingerprints.items()
-        ]
+        return parsed_fingerprints(fingerprints)
     except Exception as e:
         raise ValueError("Bad fingerprints format") from e
 
@@ -225,3 +218,14 @@ def find_match(
         ):
             return f
     return None
+
+
+def parsed_fingerprints(f: Dict[str, Any]) -> List[RegexFingerprint]:
+    return [
+        RegexFingerprint(
+            name,
+            re.compile(data["pattern"], re.IGNORECASE),
+            data.get("process_200", False),
+        )
+        for name, data in f.items()
+    ]
