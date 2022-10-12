@@ -86,6 +86,7 @@ default_fingerprints = {
     "statuspage": {"pattern": r"You are being <a href=\'https>"},
     "zendesk": {"pattern": r"Help Center Closed"},
     "worksites.net": {"pattern": r"Hello! Sorry, but the webs>"},
+    "wix": {"pattern": r"Looks Like This Domain Isn\'t Connected To A Website Yet!"},
 }
 
 
