@@ -57,6 +57,7 @@ uservoice
 vend
 webflow
 wishpond
+wix
 wordpress
 worksites.net
 zendesk
