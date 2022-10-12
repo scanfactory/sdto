@@ -87,6 +87,7 @@ default_fingerprints = {
     "zendesk": {"pattern": r"Help Center Closed"},
     "worksites.net": {"pattern": r"Hello! Sorry, but the webs>"},
     "wix": {"pattern": r"Looks Like This Domain Isn\'t Connected To A Website Yet!"},
+    "airee": {"pattern": r"Ошибка 402\. Сервис"},
 }
 
 

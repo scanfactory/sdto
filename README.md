@@ -15,6 +15,7 @@ acquia
 activecampaign
 aftership
 aha
+airee
 aws/s3
 bigcartelbitbucket
 brightcove
