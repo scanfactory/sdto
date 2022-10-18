@@ -3,7 +3,8 @@
 
 # sdto - subdomain takeover finder
 
-Subdomain takeover scanner.
+Subdomain takeover scanner  
+Current count of fingerprints: **80**
 
 [What is subdomain takeover?](https://labs.detectify.com/2014/10/21/hostile-subdomain-takeover-using-herokugithubdesk-more/)
 
@@ -14,46 +15,74 @@ Subdomain takeover scanner.
 acquia
 activecampaign
 aftership
+agilecrm
 aha
 airee
+anima
+announcekit
 aws/s3
 bigcartelbitbucket
 brightcove
 campaignmonitor
+canny
 cargo
+cargocollective
 cloudfront
 desk
 fastly
 feedpress
+flexbe
+flywheel
+frontify
+gemfury
 getresponse
 ghost
+gitbook
 github
+hatenablog
 helpjuice
+helprace
 helpscout
 heroku
+hubspot
 intercom
+jazzhr
 jetbrains
 kajabi
+kinsta
+launchrock
 mashery
+netlify
+ngrok
+pagewiz
 pantheon
 pingdom
 proposify
 readme
+readthedocs
 s3bucket
 shopify
+shortio
 simplebooklet
+smartjob
 smartling
 smugmug
+smugmug
+sprintful
 statuspage
+strikingly
 surge
 surveygizmo
+surveysparrow
 tave
 teamwork
 thinkific
 tictail
 tilda
 tumbler
+uberflip
 unbounce
+uptimerobot
 uservoice
 vend
 webflow
@@ -61,6 +90,7 @@ wishpond
 wix
 wordpress
 worksites.net
+wufoo
 zendesk
 ```
 ## Installation:
