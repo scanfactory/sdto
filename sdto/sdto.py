@@ -86,7 +86,7 @@ default_fingerprints = {
     "statuspage": {"pattern": r"You are being <a href=\'https>"},
     "zendesk": {"pattern": r"Help Center Closed"},
     "worksites.net": {"pattern": r"Hello! Sorry, but the webs>"},
-    "wix": {"pattern": r"Looks Like This Domain Isn\'t Connected To A Website Yet!"},
+    "wix": {"pattern": r"Error ConnectYourDomain occurred"},
     "airee": {"pattern": r"Ошибка 402\. Сервис"},
     "agilecrm": {"pattern": r"Sorry, this page is no longer available\."},
     "anima": {"pattern": r"If this is your website and you\'ve just created it, try refreshing in a minute"},

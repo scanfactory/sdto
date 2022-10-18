@@ -21,7 +21,8 @@ airee
 anima
 announcekit
 aws/s3
-bigcartelbitbucket
+bigcartel
+bitbucket
 brightcove
 campaignmonitor
 canny
@@ -66,7 +67,6 @@ shortio
 simplebooklet
 smartjob
 smartling
-smugmug
 smugmug
 sprintful
 statuspage
