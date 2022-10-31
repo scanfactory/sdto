@@ -8,6 +8,7 @@ from typing import List, Optional, Tuple, Pattern, Dict, Any
 from urllib.parse import urlparse
 
 import aiohttp
+from aiohttp import TCPConnector
 
 default_fingerprints = {
     "AWS/S3": {"pattern": r"The specified bucket does not exist"},
@@ -153,6 +154,7 @@ async def scan(
     tasks = []
     tokens = await token_bucket(options.concurrency)
     async with aiohttp.ClientSession(
+        connector=TCPConnector(ssl=False),
         headers=options.headers,
         timeout=aiohttp.ClientTimeout(total=options.timeout)
         if options.timeout
