@@ -23,7 +23,7 @@ default_fingerprints = {
         "pattern": r"no-such-app.html|<title>no such app</title>|herokucdn.com/pattern-pages/no-such-app.html"
     },
     "Pantheon": {
-        "pattern": r"The gods are wise, but do not know of the site which you seek."
+        "pattern": r"The gods are wise\, but do not know of the site which you seek."
     },
     "Tumbler": {
         "pattern": r"Whatever you were looking for doesn\'t currently exist at this address."
@@ -66,13 +66,13 @@ default_fingerprints = {
         "pattern": r"The site you are looking for could not be found.|If you are an Acquia Cloud customer and expect to see your site at this address"
     },
     "Proposify": {
-        "pattern": r"If you need immediate assistance, please contact <a href=\"mailto:support@proposify.biz"
+        "pattern": r"If you need immediate assistance\, please contact <a href=\"mailto:support@proposify.biz"
     },
     "Simplebooklet": {
         "pattern": r"We can\'t find this <a href=\"https://simplebooklet.com"
     },
     "GetResponse": {
-        "pattern": r"With GetResponse Landing Pages, lead generation has never been easier"
+        "pattern": r"With GetResponse Landing Pages\, lead generation has never been easier"
     },
     "Vend": {"pattern": r"Looks like you\'ve traveled too far into cyberspace."},
     "Jetbrains": {"pattern": r"is not a registered InCloud YouTrack."},
@@ -86,16 +86,16 @@ default_fingerprints = {
     "readme": {"pattern": r"Project doesnt exist... yet!"},
     "statuspage": {"pattern": r"You are being <a href=\'https>"},
     "zendesk": {"pattern": r"Help Center Closed"},
-    "worksites.net": {"pattern": r"Hello! Sorry, but the webs>"},
+    "worksites.net": {"pattern": r"Hello! Sorry\, but the webs>"},
     "wix": {"pattern": r"Error ConnectYourDomain occurred"},
     "airee": {"pattern": r"Ошибка 402\. Сервис"},
-    "agilecrm": {"pattern": r"Sorry, this page is no longer available\."},
+    "agilecrm": {"pattern": r"Sorry\, this page is no longer available\."},
     "anima": {"pattern": r"If this is your website and you\'ve just created it, try refreshing in a minute"},
     "announcekit": {"pattern": r"Error 404 \- AnnounceKit"},
     "canny": {"pattern": r"There is no such company\. Did you enter the right URL"},
     "cargocollective": {"pattern": r"<div class=\"notfound\">"},
     "flexbe": {"pattern": r"Domain isn\'t configured"},
-    "flywheel": {"pattern": r"We\'re sorry, you\'ve landed on a page that is hosted by Flywheel"},
+    "flywheel": {"pattern": r"We\'re sorry\, you\'ve landed on a page that is hosted by Flywheel"},
     "frontify": {"pattern": r"Oops… looks like you got lost"},
     "gemfury": {"pattern": r"404: This page could not be found\."},
     "gitbook": {"pattern": r"If you need specifics, here\'s the error"},
@@ -114,10 +114,11 @@ default_fingerprints = {
     "smugmug": {"pattern": r"\{\"text\":\"Page Not Found\""},
     "sprintful": {"pattern": r"Please contact the owner of this calendar directly in order to book a meeting\."},
     "strikingly": {"pattern": r"But if you\'re looking to build your own website"},
-    "uberflip": {"pattern": r"Non\-hub domain, The URL you\'ve accessed does not provide a hub\."},
+    "uberflip": {"pattern": r"Non\-hub domain\, The URL you\'ve accessed does not provide a hub\."},
     "uptimerobot": {"pattern": r"^page not found$"},
     "wufoo": {"pattern": r"Hmmm\.\.\.\.something is not right\."},
-    "surveysparrow": {"pattern": r"Account not found\."}
+    "surveysparrow": {"pattern": r"Account not found\."},
+    "squarespace": {"pattern": r"This domain has been mapped to Squarespace\, but it has not yet been claimed"}
 }
 
 
