@@ -15,7 +15,8 @@ default_fingerprints = {
     "BitBucket": {"pattern": r"Repository not found"},
     "Github": {"pattern": r"There isn\'t a Github Pages site here\."},
     "Shopify": {"pattern": r"Sorry\, this shop is currently unavailable\."},
-    "Fastly": {"pattern": r"Fastly pattern\: unknown domain\:"},
+    "Fastly-1": {"pattern": r"Fastly pattern\: unknown domain\:"},
+    "Fastly-2": {"pattern": r"Fastly error\: unknown domain\:"},
     "Ghost": {
         "pattern": r"The thing you were looking for is no longer here\, or never was"
     },
