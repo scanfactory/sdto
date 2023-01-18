@@ -107,7 +107,7 @@ default_fingerprints = {
     "kinsta": {"pattern": r"No Site For Domain"},
     "launchrock": {"pattern": r"It looks like you may have taken a wrong turn somewhere\. Don\'t worry\.\.\.it happens to all of us\."},
     "netlify": {"pattern": r"Not Found \- Request ID:"},
-    "ngrok": {"pattern": r"ERR_NGROK_3200"},
+    "ngrok": {"pattern": r"ERR_NGROK_"},
     "pagewiz": {"pattern": r"Start Your New Landing Page Now!"},
     "readthedocs": {"pattern": r"unknown to Read the Docs"},
     "shortio": {"pattern": r"This domain is not configured on Short\.io"},
