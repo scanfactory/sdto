@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sdto"
-version = "0.1.6"
+version = "0.1.7"
 description = "Subdomain takeover finder"
 authors = ["godpleaseno <zfrty@protonmail.com>"]
 license = "MIT"
