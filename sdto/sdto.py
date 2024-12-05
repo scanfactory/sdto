@@ -119,6 +119,7 @@ default_fingerprints = {
     "uptimerobot": {"pattern": r"^page not found$"},
     "wufoo": {"pattern": r"Hmmm\.\.\.\.something is not right\."},
     "surveysparrow": {"pattern": r"Account not found\."},
+    "wpengine": {"pattern": r"This domain is successfully pointed at WP Engine, but is not configured for an account on our platform\."},
     "squarespace": {"pattern": r"This domain has been mapped to Squarespace\, but it has not yet been claimed"}
 }
 
